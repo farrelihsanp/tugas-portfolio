@@ -15,7 +15,7 @@ const ItemPortfolio = (props: PortfolioProps) => {
         <img
           src={props.src}
           alt={props.alt}
-          className="w-full h-64 object-cover rounded-lg transition-transform duration-300 ease-in-out transform hover:scale-105" // Set a fixed height
+          className="w-full h-64 object-cover rounded-lg transition-transform duration-300 ease-in-out transform hover:scale-105"
         />
       </div>
 

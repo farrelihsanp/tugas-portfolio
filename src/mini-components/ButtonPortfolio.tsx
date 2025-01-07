@@ -15,7 +15,7 @@ const TabButton: React.FC<TabButtonProps> = ({
 }) => {
   return (
     <button
-      className={`py-2 px-4 rounded hover:bg-blue-600 duration-300 hover:text-white ${
+      className={`py-2 px-4 roundedt duration-300 hover:text-white ${
         activeTab === label
           ? "bg-blue-600 text-white"
           : "bg-gray-200 text-gray-700"

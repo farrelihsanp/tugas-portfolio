@@ -33,7 +33,7 @@ const ItemExperience = (props: ItemExperienceProps) => {
       )}
       <button
         onClick={toggleReadMore}
-        className="text-blue-500 hover:underline focus:outline-none mt-4 transition-colors duration-200"
+        className="text-black hover:underline focus:outline-none mt-4 transition-colors duration-200"
       >
         {isExpanded ? "Read Less" : "Read More"}
       </button>
