@@ -5,7 +5,7 @@ const ExperienceSection: React.FC = () => {
   return (
     <section
       id="ExperienceSection"
-      className="max-w-[1100px] mx-auto h-auto bg-white bg-[radial-gradient(#e5e7eb_1px,transparent_1px)] [background-size:16px_16px] flex items-center justify-center py-10"
+      className="px-4 max-w-[1100px] mx-auto h-auto bg-white bg-[radial-gradient(#e5e7eb_1px,transparent_1px)] [background-size:16px_16px] flex items-center justify-center py-10"
     >
       <div className="border-2 border-gray-300 p-8 rounded-lg shadow-lg my-10 bg-white bottom-0 left-0 right-0 top-0 bg-[radial-gradient(circle_300px_at_90%_100px,#C9EBFF,transparent)]">
         <h1 className="text-xl md:text-2xl lg:text-3xl font-bold text-center mb-4 md:mb-6 text-blue-600">

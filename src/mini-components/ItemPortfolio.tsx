@@ -72,7 +72,7 @@ const ItemPortfolio = (props: PortfolioProps) => {
           )}
           <button
             onClick={toggleReadMore}
-            className="mt-4 py-2 bg-blue-500 text-white rounded-md hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-50 transition duration-200"
+            className="mt-4 py-1 bg-blue-500 text-white rounded-md hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-50 transition duration-200 px-2"
           >
             {isExpanded ? "Read Less" : "Read More"}
           </button>

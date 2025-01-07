@@ -112,7 +112,7 @@ const PortfolioSection = () => {
   };
 
   return (
-    <section className="max-w-[1100px] mx-auto flex flex-col items-center">
+    <section className="px-4 max-w-[1100px] mx-auto flex flex-col items-center">
       <div className="flex flex-wrap justify-center mb-6">
         <div className="flex flex-col sm:flex-row gap-4">
           <TabButton

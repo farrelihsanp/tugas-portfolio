@@ -7,7 +7,7 @@ const TestimonialSection = () => {
   return (
     <section
       id="TestimonialSection"
-      className="bottom-0 left-0 right-0 top-0 bg-[radial-gradient(circle_600px_at_100%_800px,#C9EBFF,transparent)] "
+      className="bottom-0 left-0 right-0 top-0 bg-[radial-gradient(circle_1000px_at_100%_800px,#C9EBFF,transparent)] "
     >
       <div className="max-w-[1100px] mx-auto">
         <div className="my-10">
