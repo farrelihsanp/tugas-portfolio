@@ -10,7 +10,6 @@ const ItemPortfolio = (props: PortfolioProps) => {
 
   return (
     <section className="bg-[radial-gradient(circle_300px_at_90%_100px,#C9EBFF,transparent)] flex flex-col xl:flex-row p-6 gap-6 rounded-lg shadow-lg items-center my-6 border-2 border-gray-300 max-w-full">
-      {/* Image Section */}
       <div className="flex justify-center w-full sm:w-1/2 p-4">
         <img
           src={props.src}
@@ -19,9 +18,7 @@ const ItemPortfolio = (props: PortfolioProps) => {
         />
       </div>
 
-      {/* Text Section */}
       <div className="w-full sm:w-1/2 p-4 flex flex-col justify-between">
-        {/* Project Header */}
         <div className="flex items-center space-x-3 mb-4">
           <img
             src={props.imgLogo}
@@ -33,10 +30,8 @@ const ItemPortfolio = (props: PortfolioProps) => {
           </h2>
         </div>
 
-        {/* Short Brief */}
         <p className="text-gray-700 mb-4 break-words">{props.shortBrief}</p>
 
-        {/* Project Details */}
         <div className="mb-4">
           <h3 className="text-lg md:text-xl font-semibold text-blue-500 mb-2">
             Project Details
@@ -51,7 +46,6 @@ const ItemPortfolio = (props: PortfolioProps) => {
           </ul>
         </div>
 
-        {/* Expanded Project Information */}
         <div>
           {isExpanded && (
             <>

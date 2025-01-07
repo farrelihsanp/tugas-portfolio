@@ -6,10 +6,10 @@ const HeroSection = () => {
     >
       <div className="mt-6 flex justify-center">
         <img
-          src="/AVATAR-2.png" // Ensure this image is optimized
+          src="/AVATAR-2.png"
           alt="Foto Farrel"
-          className="w-32 h-32 md:w-48 md:h-48 lg:w-auto lg:h-auto mb-10 rounded-full object-cover" // Responsive sizing
-          loading="lazy" // Lazy loading
+          className="w-32 h-32 md:w-48 md:h-48 lg:w-auto lg:h-auto mb-10 rounded-full object-cover"
+          loading="lazy"
         />
       </div>
       <div className="text-center xl:text-left xl:mr-8">
