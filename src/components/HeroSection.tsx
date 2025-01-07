@@ -27,7 +27,7 @@ const HeroSection = () => {
           development, combining expertise in various technologies to create
           functional and engaging web applications.
         </p>
-        <button className="bg-black text-white font-semibold py-2 px-4 rounded hover:bg-blue-600 transition duration-300 ">
+        <button className="bg-black w-40 h-10  text-white font-semibold rounded hover:bg-blue-600 transition duration-300 ">
           <a href="#ContactSection">Contact Me</a>
         </button>
       </div>

@@ -19,7 +19,7 @@ const TestimonialBox = (props: TestimonialBoxProps) => {
             <img
               src={a.avatar}
               alt={`${a.name}'s avatar`}
-              className="w-14 h-14 mb-4 border border-gray-300 rounded-full"
+              className="w-12 h-12 mb-4 border border-gray-300 rounded-full"
             />
           </div>
           <div>
