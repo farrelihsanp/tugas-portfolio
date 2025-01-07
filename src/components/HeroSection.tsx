@@ -6,7 +6,7 @@ const HeroSection = () => {
     >
       <div className="mt-6 flex justify-center">
         <img
-          src="/src/assets/AVATAR-2.png"
+          src="/AVATAR-2.png"
           alt="Foto Farrel"
           className="w-auto h-auto mb-10 rounded-full"
         />

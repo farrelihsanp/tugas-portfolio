@@ -12,9 +12,9 @@ const PortfolioSection = () => {
           <div id="PortfolioSection">
             {/* Tokopedia */}
             <ItemPortfolio
-              imgLogo="/src/assets/TOKOPEDIA-LOGO.png"
+              imgLogo="/TOKOPEDIA-LOGO.png"
               altLogo="Tokopedia Logo"
-              src="/src/assets/Tokopedia.png"
+              src="/Tokopedia.png"
               alt="Tokopedia Logo"
               projectName="Tokopedia Website"
               shortBrief="As a full-stack web developer for the Tokopedia website redesign project, I was tasked with creating a more user-friendly platform."
@@ -32,9 +32,9 @@ const PortfolioSection = () => {
           <div>
             {/* Youtube */}
             <ItemPortfolio
-              imgLogo="/src/assets/YOUTUBE-LOGO.png"
+              imgLogo="/YOUTUBE-LOGO.png"
               altLogo="Youtube Logo"
-              src="/src/assets/youtube.png"
+              src="/youtube.png"
               alt="Youtube Website"
               projectName="Youtube Website"
               shortBrief="I created a user-friendly website for YouTube fans, featuring popular videos, user accounts, and discussion forums."
@@ -52,9 +52,9 @@ const PortfolioSection = () => {
           <div>
             {/* TikTok */}
             <ItemPortfolio
-              imgLogo="/src/assets/TIKTOK-LOGO.png"
+              imgLogo="/TIKTOK-LOGO.png"
               altLogo="TikTok Logo"
-              src="/src/assets/tiktok.png"
+              src="/tiktok.png"
               alt="TikTok Website"
               projectName="Tiktok Website"
               shortBrief="Our goal is to enhance the TikTok experience by providing valuable resources and a space for interaction among users."
@@ -72,9 +72,9 @@ const PortfolioSection = () => {
           <div>
             {/* Facebook */}
             <ItemPortfolio
-              imgLogo="/src/assets/FACEBOOK-LOGO.png"
+              imgLogo="/FACEBOOK-LOGO.png"
               altLogo="Facebook Logo"
-              src="/src/assets/facebook.png"
+              src="/facebook.png"
               alt="Facebook Website"
               projectName="Facebook Website"
               shortBrief="Utilizing responsive web design, we created a user-friendly interface that allows visitors to easily access articles, tutorials, and community forums."
@@ -92,9 +92,9 @@ const PortfolioSection = () => {
           <div>
             {/* Instagram */}
             <ItemPortfolio
-              imgLogo="/src/assets/INSTAGRAM-LOGO.png"
+              imgLogo="/INSTAGRAM-LOGO.png"
               altLogo="Instagram Logo"
-              src="/src/assets/INSTAGRAM.png"
+              src="/INSTAGRAM.png"
               alt="Instagram Website"
               projectName="Instagram Website"
               shortBrief="Utilizing responsive web design, we aim to create an engaging and user-friendly experience that highlights trending posts."

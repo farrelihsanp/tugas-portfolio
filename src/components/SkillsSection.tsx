@@ -16,12 +16,9 @@ const SkillsSection = () => {
               listApps="HTML, CSS, JavaScript"
             />
             <div className="justify-center justify-items-center flex">
-              <ItemSkillsSection src="/src/assets/HTML.svg" alt="HTML Logo" />
-              <ItemSkillsSection src="/src/assets/CSS.svg" alt="CSS Logo" />
-              <ItemSkillsSection
-                src="/src/assets/JAVASCRIPT.svg"
-                alt="JavaScript Logo"
-              />
+              <ItemSkillsSection src="/HTML.svg" alt="HTML Logo" />
+              <ItemSkillsSection src="/CSS.svg" alt="CSS Logo" />
+              <ItemSkillsSection src="/JAVASCRIPT.svg" alt="JavaScript Logo" />
             </div>
           </div>
           <div id="backend-skills">
@@ -31,18 +28,9 @@ const SkillsSection = () => {
               listApps="Node.js, Django, Ruby on Rails"
             />
             <div className="flex justify-center mt-4">
-              <ItemSkillsSection
-                src="/src/assets/NODE-JS.svg"
-                alt="Node.js Logo"
-              />
-              <ItemSkillsSection
-                src="/src/assets/DJANGO.svg"
-                alt="Django Logo"
-              />
-              <ItemSkillsSection
-                src="/src/assets/RUBYYY.svg"
-                alt="Ruby on Rails Logo"
-              />
+              <ItemSkillsSection src="/NODE-JS.svg" alt="Node.js Logo" />
+              <ItemSkillsSection src="/DJANGO.svg" alt="Django Logo" />
+              <ItemSkillsSection src="/RUBYYY.svg" alt="Ruby on Rails Logo" />
             </div>
           </div>
           <div id="devops-skills">
@@ -52,19 +40,10 @@ const SkillsSection = () => {
               listApps="Docker, Git, Jenkins, AWS"
             />
             <div className="flex justify-center mt-4">
-              <ItemSkillsSection
-                src="/src/assets/DOCKER.svg"
-                alt="Docker Logo"
-              />
-              <ItemSkillsSection
-                src="/src/assets/GITHUB.svg"
-                alt="GitHub Logo"
-              />
-              <ItemSkillsSection
-                src="/src/assets/JENKINS.svg"
-                alt="Jenkins Logo"
-              />
-              <ItemSkillsSection src="/src/assets/AWS.svg" alt="AWS Logo" />
+              <ItemSkillsSection src="/DOCKER.svg" alt="Docker Logo" />
+              <ItemSkillsSection src="/GITHUB.svg" alt="GitHub Logo" />
+              <ItemSkillsSection src="/JENKINS.svg" alt="Jenkins Logo" />
+              <ItemSkillsSection src="/AWS.svg" alt="AWS Logo" />
             </div>
           </div>
         </div>
