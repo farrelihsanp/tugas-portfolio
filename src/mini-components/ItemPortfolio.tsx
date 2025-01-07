@@ -9,13 +9,13 @@ const ItemPortfolio = (props: PortfolioProps) => {
   };
 
   return (
-    <section className="bg-[radial-gradient(circle_300px_at_90%_100px,#C9EBFF,transparent)] flex flex-col xl:flex-row p-6 gap-6  rounded-lg shadow-lg items-center my-6 border-2 border-gray-300 max-w-full">
+    <section className="bg-[radial-gradient(circle_300px_at_90%_100px,#C9EBFF,transparent)] flex flex-col xl:flex-row p-6 gap-6 rounded-lg shadow-lg items-center my-6 border-2 border-gray-300 max-w-full">
       {/* Image Section */}
       <div className="flex justify-center w-full sm:w-1/2 p-4">
         <img
           src={props.src}
           alt={props.alt}
-          className="w-full h-auto rounded-lg transition-transform duration-300 ease-in-out transform hover:scale-105"
+          className="w-full h-64 object-cover rounded-lg transition-transform duration-300 ease-in-out transform hover:scale-105" // Set a fixed height
         />
       </div>
 

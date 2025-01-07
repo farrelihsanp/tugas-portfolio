@@ -8,20 +8,26 @@ const SkillsSection = () => {
       className="bg-white py-14 max-w-[1100px] mx-auto px-4 my-9"
     >
       <div className="mx-auto">
-        <div className="grid grid-cols-1 xl:grid-cols-3 gap-8 ">
-          <div id="frontend-skills">
+        <div className="grid grid-cols-1 xl:grid-cols-3 gap-8">
+          <div
+            id="frontend-skills"
+            className="flex flex-col h-full p-4 border rounded-lg shadow-md"
+          >
             <ListSkills
               nameSkill="Frontend Skills"
               description="I have experience in these frontend technologies:"
               listApps="HTML, CSS, JavaScript"
             />
-            <div className="justify-center justify-items-center flex">
+            <div className="flex justify-center mt-4">
               <ItemSkillsSection src="/HTML.svg" alt="HTML Logo" />
               <ItemSkillsSection src="/CSS.svg" alt="CSS Logo" />
               <ItemSkillsSection src="/JAVASCRIPT.svg" alt="JavaScript Logo" />
             </div>
           </div>
-          <div id="backend-skills">
+          <div
+            id="backend-skills"
+            className="flex flex-col h-full p-4 border rounded-lg shadow-md"
+          >
             <ListSkills
               nameSkill="Backend Skills"
               description="I have experience in these backend technologies:"
@@ -33,7 +39,10 @@ const SkillsSection = () => {
               <ItemSkillsSection src="/RUBYYY.svg" alt="Ruby on Rails Logo" />
             </div>
           </div>
-          <div id="devops-skills">
+          <div
+            id="devops-skills"
+            className="flex flex-col h-full p-4 border rounded-lg shadow-md"
+          >
             <ListSkills
               nameSkill="DevOps Skills"
               description="I have experience in these DevOps technologies:"
