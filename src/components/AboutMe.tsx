@@ -4,10 +4,10 @@ function AboutMe() {
   return (
     <section
       id="AboutMe"
-      className="my-20 max-w-[1100px] mx-auto px-4 flex flex-col xl:flex-row space-y-4 md:space-x-4 items-center rounded-lg justify-center gap-3"
+      className="my-20 max-w-[1100px] mx-auto px-4 flex flex-col xl:flex-row space-y-4 md:space-y-0 md:space-x-4 items-center justify-center gap-3"
     >
-      <div className="flex flex-col md:flex-row w-full">
-        <div className="flex-1 min-w-[250px] h-[200px] flex flex-col items-center justify-center rounded-lg mb-4 md:mb-0 md:mr-4">
+      <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-3 gap-4 w-full">
+        <div className="flex flex-col items-center justify-center rounded-lg transition-transform transform hover:scale-105">
           <ItemAboutMe
             src="/bx-comment-dots.svg"
             alt="Brief Bio Logo"
@@ -15,7 +15,7 @@ function AboutMe() {
             description="I am a passionate web developer with a strong interest in creating dynamic and user-friendly web applications. My expertise lies in HTML, CSS, JavaScript, React, and Next.js."
           />
         </div>
-        <div className="flex-1 min-w-[250px] h-[200px] flex flex-col items-center justify-center rounded-lg mb-4 md:mb-0 md:mr-4">
+        <div className="flex flex-col items-center justify-center rounded-lg transition-transform transform hover:scale-105">
           <ItemAboutMe
             src="/bx-key.svg"
             alt="Core Skills Logo"
@@ -23,7 +23,7 @@ function AboutMe() {
             description="My core skills include HTML, CSS, JavaScript, React, and Next.js. I have a strong foundation in these technologies, enabling me to build robust and interactive web applications."
           />
         </div>
-        <div className="flex-1 min-w-[250px] h-[200px] flex flex-col items-center justify-center rounded-lg mb-4 md:mb-0">
+        <div className="flex flex-col items-center justify-center rounded-lg transition-transform transform hover:scale-105">
           <ItemAboutMe
             src="/bx-palette.svg"
             alt="Key Values Logo"

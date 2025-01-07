@@ -14,7 +14,7 @@ const PortfolioSection = () => {
             <ItemPortfolio
               imgLogo="/TOKOPEDIA-LOGO.png"
               altLogo="Tokopedia Logo"
-              src="/TOKOPEDIA.png"
+              src="/tokopediabisa.png"
               alt="Tokopedia Logo"
               projectName="Tokopedia Website"
               shortBrief="As a full-stack web developer for the Tokopedia website redesign project, I was tasked with creating a more user-friendly platform."
@@ -34,7 +34,7 @@ const PortfolioSection = () => {
             <ItemPortfolio
               imgLogo="/YOUTUBE-LOGO.png"
               altLogo="Youtube Logo"
-              src="/YOUTUBE.png"
+              src="/youtubebisa.png"
               alt="Youtube Website"
               projectName="Youtube Website"
               shortBrief="I created a user-friendly website for YouTube fans, featuring popular videos, user accounts, and discussion forums."
@@ -54,7 +54,7 @@ const PortfolioSection = () => {
             <ItemPortfolio
               imgLogo="/TIKTOK-LOGO.png"
               altLogo="TikTok Logo"
-              src="/TIKTOK.png"
+              src="/tiktokbisa.png"
               alt="TikTok Website"
               projectName="Tiktok Website"
               shortBrief="Our goal is to enhance the TikTok experience by providing valuable resources and a space for interaction among users."
@@ -74,7 +74,7 @@ const PortfolioSection = () => {
             <ItemPortfolio
               imgLogo="/FACEBOOK-LOGO.png"
               altLogo="Facebook Logo"
-              src="/FACEBOOK.png"
+              src="/facebookbisa.png"
               alt="Facebook Website"
               projectName="Facebook Website"
               shortBrief="Utilizing responsive web design, we created a user-friendly interface that allows visitors to easily access articles, tutorials, and community forums."
@@ -94,7 +94,7 @@ const PortfolioSection = () => {
             <ItemPortfolio
               imgLogo="/INSTAGRAM-LOGO.png"
               altLogo="Instagram Logo"
-              src="/INSTAGRAM.png"
+              src="/instagrambisa.png"
               alt="Instagram Website"
               projectName="Instagram Website"
               shortBrief="Utilizing responsive web design, we aim to create an engaging and user-friendly experience that highlights trending posts."

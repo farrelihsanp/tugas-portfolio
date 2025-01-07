@@ -2,7 +2,7 @@ const HeroSection = () => {
   return (
     <section
       id="HeroSection"
-      className="max-w-[1100px] px-4 mx-auto xl:gap-8 flex flex-col lg:flex-row min-h-screen items-center justify-center my-4"
+      className="max-w-[1100px] px-4 mx-auto xl:gap-8 flex flex-col lg:flex-row my-40 items-center justify-center"
     >
       <div className="mt-6 flex justify-center">
         <img

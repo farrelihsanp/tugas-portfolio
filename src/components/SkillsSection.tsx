@@ -5,7 +5,7 @@ const SkillsSection = () => {
   return (
     <section
       id="SkillsSection"
-      className="bg-white py-14 max-w-[1100px] mx-auto px-4"
+      className="bg-white py-14 max-w-[1100px] mx-auto px-4 my-9"
     >
       <div className="mx-auto">
         <div className="grid grid-cols-1 xl:grid-cols-3 gap-8 ">
