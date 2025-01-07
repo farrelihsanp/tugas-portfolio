@@ -1,12 +1,15 @@
-const TestimonialBox = (props: any) => {
+import { TestimonialBoxProps } from "../types/portfolio";
+import { Testimonial } from "../types/portfolio";
+
+const TestimonialBox = (props: TestimonialBoxProps) => {
   return (
-    <div
+    <section
       id={props.id}
       className="flex-col
        m-4 bg
        "
     >
-      {props.data.map((a: any, index: number) => (
+      {props.data.map((a: Testimonial, index: number) => (
         <div
           key={index}
           className=" shadow-md rounded-lg p-4 border border-gray-300 my-4 flex-1 bg-white w-100
@@ -26,7 +29,7 @@ const TestimonialBox = (props: any) => {
           </div>
         </div>
       ))}
-    </div>
+    </section>
   );
 };
 

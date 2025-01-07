@@ -100,7 +100,7 @@ const PortfolioSection = () => {
               shortBrief="Utilizing responsive web design, we aim to create an engaging and user-friendly experience that highlights trending posts."
               projectTitle="Instagram Clone Website"
               technologies="HTML, CSS, JavaScript, React, Node.js, MongoDB"
-              situation="In today’s digital age, social media platforms like Instagram play a crucial role in connecting people and sharing experiences."
+              situation="In todays digital age, social media platforms like Instagram play a crucial role in connecting people and sharing experiences."
               task="The primary goal of this project was to develop a fully functional Instagram-like website."
               action="To achieve these goals, I began by outlining the project requirements and creating wireframes for the user interface."
               result="The project culminated in a fully functional website that successfully replicated key features of Instagram."
@@ -112,47 +112,49 @@ const PortfolioSection = () => {
   };
 
   return (
-    <div className="flex flex-col items-center p-4">
-      <div className="flex flex-wrap justify-center space-x-4 mb-6">
-        <TabButton
-          activeTab={activeTab}
-          setActiveTab={setActiveTab}
-          label="first"
-          children="Tokopedia"
-        />
-        <TabButton
-          activeTab={activeTab}
-          setActiveTab={setActiveTab}
-          label="second"
-          children="Youtube"
-        />
-        <TabButton
-          activeTab={activeTab}
-          setActiveTab={setActiveTab}
-          label="third"
-          children="TikTok"
-        />
-        <TabButton
-          activeTab={activeTab}
-          setActiveTab={setActiveTab}
-          label="fourth"
-          children="Facebook"
-        />
-        <TabButton
-          activeTab={activeTab}
-          setActiveTab={setActiveTab}
-          label="fifth"
-          children="Instagram"
-        />
+    <section className="max-w-[1100px] mx-auto flex flex-col items-center">
+      <div className="flex flex-wrap justify-center mb-6">
+        <div className="flex flex-col sm:flex-row gap-4">
+          <TabButton
+            activeTab={activeTab}
+            setActiveTab={setActiveTab}
+            label="first"
+            children="Tokopedia"
+          />
+          <TabButton
+            activeTab={activeTab}
+            setActiveTab={setActiveTab}
+            label="second"
+            children="Youtube"
+          />
+          <TabButton
+            activeTab={activeTab}
+            setActiveTab={setActiveTab}
+            label="third"
+            children="TikTok"
+          />
+          <TabButton
+            activeTab={activeTab}
+            setActiveTab={setActiveTab}
+            label="fourth"
+            children="Facebook"
+          />
+          <TabButton
+            activeTab={activeTab}
+            setActiveTab={setActiveTab}
+            label="fifth"
+            children="Instagram"
+          />
+        </div>
       </div>
-      <div className="w-full max-w-md text-center px-4">
+      <div className=" max-w-md text-center px-4">
         <p>
           Here are some projects that I have completed, and the clients are
           satisfied with the services I provided.
         </p>
       </div>
-      <div className="mt-2 w-full">{renderContent()}</div>
-    </div>
+      <div className="mt-2">{renderContent()}</div>
+    </section>
   );
 };
 

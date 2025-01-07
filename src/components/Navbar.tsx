@@ -2,7 +2,7 @@ import ItemNavbar from "../mini-components/ItemNavbar";
 
 const Navbar = () => {
   return (
-    <nav className="bg-white mt-8 shadow-md rounded-full p-4 mx-4 md:mx-40 flex flex-col md:flex-row items-center justify-between">
+    <nav className="p-4 max-w-[1100px] px-4 my-4 mx-auto bg-white mt-8 shadow-md rounded-full md:mx-auto flex flex-col md:flex-row items-center justify-between border-2 border-gray-300">
       <div className="mb-4 md:mb-0">
         <div>
           <h1 className="text-1xl font-bold text-center text-blue-black">

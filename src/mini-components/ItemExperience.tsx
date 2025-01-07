@@ -1,6 +1,7 @@
 import { useState } from "react";
+import { ItemExperienceProps } from "../types/portfolio";
 
-const ItemExperience = (props: any) => {
+const ItemExperience = (props: ItemExperienceProps) => {
   const [isExpanded, setIsExpanded] = useState(false);
 
   const toggleReadMore = () => {
@@ -8,7 +9,7 @@ const ItemExperience = (props: any) => {
   };
 
   return (
-    <div className="p-6 bg-white rounded-lg shadow-lg transition-transform transform hover:scale-105 hover:shadow-xl duration-300">
+    <section className="p-6 bg-white border-2 border-gray-300 rounded-lg shadow-lg transition-transform transform hover:scale-105 hover:shadow-xl duration-300">
       <div className="flex items-center mb-4">
         <span className="text-blue-600 text-3xl">{props.icon}</span>
         <h2 className="text-xl font-semibold ml-2 text-gray-800">
@@ -36,7 +37,7 @@ const ItemExperience = (props: any) => {
       >
         {isExpanded ? "Read Less" : "Read More"}
       </button>
-    </div>
+    </section>
   );
 };
 

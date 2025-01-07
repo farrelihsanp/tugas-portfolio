@@ -3,33 +3,28 @@ import ListSkills from "../mini-components/ListSkills";
 
 const SkillsSection = () => {
   return (
-    <div id="SkillsSection" className="bg-white py-16">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="grid grid-cols-1 xl:grid-cols-3 gap-8">
-          {/* Frontend Skills */}
-          <div id="frontend-skills" className="skill-card">
+    <section
+      id="SkillsSection"
+      className="bg-white py-16 max-w-[1100px] mx-auto px-4"
+    >
+      <div className="mx-auto">
+        <div className="grid grid-cols-1 xl:grid-cols-3 gap-8 ">
+          <div id="frontend-skills">
             <ListSkills
               nameSkill="Frontend Skills"
               description="I have experience in these frontend technologies:"
-              listApps="HTML, CSS, JavaScript, React, Angular"
+              listApps="HTML, CSS, JavaScript"
             />
-            <div className="flex justify-center mt-4">
+            <div className="justify-center justify-items-center flex">
               <ItemSkillsSection src="/src/assets/HTML.svg" alt="HTML Logo" />
               <ItemSkillsSection src="/src/assets/CSS.svg" alt="CSS Logo" />
               <ItemSkillsSection
                 src="/src/assets/JAVASCRIPT.svg"
                 alt="JavaScript Logo"
               />
-              <ItemSkillsSection src="/src/assets/REACT.svg" alt="React Logo" />
-              <ItemSkillsSection
-                src="/src/assets/ANGULAR.svg"
-                alt="Angular Logo"
-              />
             </div>
           </div>
-
-          {/* Backend Skills */}
-          <div id="backend-skills" className="skill-card">
+          <div id="backend-skills">
             <ListSkills
               nameSkill="Backend Skills"
               description="I have experience in these backend technologies:"
@@ -50,9 +45,7 @@ const SkillsSection = () => {
               />
             </div>
           </div>
-
-          {/* DevOps Skills */}
-          <div id="devops-skills" className="skill-card">
+          <div id="devops-skills">
             <ListSkills
               nameSkill="DevOps Skills"
               description="I have experience in these DevOps technologies:"
@@ -76,7 +69,7 @@ const SkillsSection = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

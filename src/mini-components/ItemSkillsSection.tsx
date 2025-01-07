@@ -1,6 +1,8 @@
-function ItemSkillsSection(props: any) {
+import { ItemSkillsSectionProps } from "../types/portfolio";
+
+function ItemSkillsSection(props: ItemSkillsSectionProps) {
   return (
-    <div
+    <section
       className="flex-row justify-center align-center bg-white p-4 rounded 
      "
     >
@@ -9,7 +11,7 @@ function ItemSkillsSection(props: any) {
         src={props.src}
         alt={props.alt}
       />
-    </div>
+    </section>
   );
 }
 

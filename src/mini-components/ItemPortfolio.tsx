@@ -1,6 +1,7 @@
 import { useState } from "react";
+import { PortfolioProps } from "../types/portfolio";
 
-const ItemPortfolio = (props: any) => {
+const ItemPortfolio = (props: PortfolioProps) => {
   const [isExpanded, setIsExpanded] = useState(false);
 
   const toggleReadMore = () => {
@@ -8,7 +9,7 @@ const ItemPortfolio = (props: any) => {
   };
 
   return (
-    <div className="bg-[radial-gradient(circle_300px_at_90%_100px,#C9EBFF,transparent)] flex flex-col xl:flex-row p-6 gap-6 border rounded-lg shadow-lg items-center mx-4 sm:mx-6 md:mx-8 lg:mx-10 my-6 border-gray-300 max-w-full">
+    <section className="bg-[radial-gradient(circle_300px_at_90%_100px,#C9EBFF,transparent)] flex flex-col xl:flex-row p-6 gap-6  rounded-lg shadow-lg items-center my-6 border-2 border-gray-300 max-w-full">
       {/* Image Section */}
       <div className="flex justify-center w-full sm:w-1/2 p-4">
         <img
@@ -71,13 +72,13 @@ const ItemPortfolio = (props: any) => {
           )}
           <button
             onClick={toggleReadMore}
-            className="mt-4 px-4 py-2 bg-blue-500 text-white rounded-md hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-50 transition duration-200"
+            className="mt-4 py-2 bg-blue-500 text-white rounded-md hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-50 transition duration-200"
           >
             {isExpanded ? "Read Less" : "Read More"}
           </button>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

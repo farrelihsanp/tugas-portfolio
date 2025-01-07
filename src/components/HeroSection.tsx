@@ -1,8 +1,8 @@
 const HeroSection = () => {
   return (
-    <div
+    <section
       id="HeroSection"
-      className="xl:gap-8 flex flex-col lg:flex-row items-center justify-center px-40 py-20 m-4"
+      className="max-w-[1100px] px-4 mx-auto xl:gap-8 flex flex-col lg:flex-row min-h-screen items-center justify-center my-4"
     >
       <div className="mt-6 flex justify-center">
         <img
@@ -12,7 +12,7 @@ const HeroSection = () => {
         />
       </div>
       <div className="text-center xl:text-left xl:mr-8">
-        <h1 className="text-2xl xl:text-3xl font-bold mb-4 text-blue-600">
+        <h1 className="text-2xl xl:text-3xl font-bold mb-4 text-black">
           Hello! <br />
           <span className="text-4xl xl:text-6xl">
             I'm Farrel Ihsan Prahaditya
@@ -26,11 +26,11 @@ const HeroSection = () => {
           development, combining expertise in various technologies to create
           functional and engaging web applications.
         </p>
-        <button className="bg-black text-white font-semibold py-2 px-4 rounded hover:bg-blue-600 transition duration-300">
-          Contact Me
+        <button className="bg-black text-white font-semibold py-2 px-4 rounded hover:bg-blue-600 transition duration-300 ">
+          <a href="#ContactSection">Contact Me</a>
         </button>
       </div>
-    </div>
+    </section>
   );
 };
 
